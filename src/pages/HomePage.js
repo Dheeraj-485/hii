@@ -1,4 +1,4 @@
-import { useContext, useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import Card from "../components/Card";
 import { useSearchParams } from "react-router-dom";
 
@@ -17,7 +17,7 @@ const HomePage = () => {
       console.log(data);
     }
     fetchShow();
-  }, [show]);
+  }, [queryTerm]);
 
   return (
     <main>

@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 
-import { Link, NavLink, useParams } from "react-router-dom";
+import { Link, useParams } from "react-router-dom";
 import Backup from "../assets/backup_image.avif";
 
 const HomePage = () => {
